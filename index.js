@@ -21,8 +21,9 @@ exports.rotate = genericRotate;
 /**
  * @name rotateLeft
  * @typicalname rLeft
- * @param arrData  - Input array data
- * @param position - Number of position to move
+ * @param {array} arrData  - Input array data
+ * @param {int} - Number of position to move
+ * @return {array}
  *
  * @usage
  * var arrayRotation = require('array-rotation')
@@ -55,8 +56,9 @@ function rLeft (arrData, position) {
 /**
  * @name rotateRight
  * @typicalname rRight
- * @param arrData  - Input array data
- * @param position (optional) - Number of position to move
+ * @param {array} arrData  - Input array data
+ * @param {int} (optional) - Number of position to move
+ * @return {array}
  *
  * @usage
  * var arrayRotation = require('array-rotation')
@@ -89,8 +91,9 @@ function rRight (arrData, position) {
 /**
  * @name genericRotate
  * @typicalname genericRotate
- * @param arrData  - Input array data
- * @param position (optional) - Number of position to move
+ * @param {array} arrData  - Input array data
+ * @param {int} position (optional) - Number of position to move
+ * @return {array}
  *
  * @usage
  * var arrayRotation = require('array-rotation')
@@ -114,11 +117,11 @@ function genericRotate (arrData, position) {
 /**
  * @name rotateLeftPrint
  * @typicalname rLeftPrint
- * @param arrData  - Input array data
- * @param position - Number of position to move
+ * @param {array} arrData  - Input array data
+ * @param {int} - Number of position to move
+ * @return {array}
  *
- *
- *  * @usage
+ * @usage
  * var arrayRotation = require('array-rotation')
  * var inputArray = [1,2,3,4,5,6,7,8,9];
  *
@@ -153,9 +156,11 @@ function rLeftPrint (arrData, position) {
 /**
  * @name rotateRightPrint
  * @typicalname rRightPrint
- * @param arrData  - Input array data
- * @param position - Number of position to move
- *  * @usage
+ * @param {array} arrData  - Input array data
+ * @param {int} - Number of position to move
+ * @return {array}
+ *
+ * @usage
  * var arrayRotation = require('array-rotation')
  * var inputArray = [1,2,3,4,5,6,7,8,9];
  *

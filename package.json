@@ -1,6 +1,6 @@
 {
   "name": "npm-array-rotation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Array rotation includes left rotation, right rotation, printing stages of rotation which receives array, position(optional/positive/negative) as an input and returns the output array.",
   "main": "index.js",
   "scripts": {
