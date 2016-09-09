@@ -1,0 +1,35 @@
+{
+  "name": "npm-array-rotation",
+  "version": "1.0.0",
+  "description": "Array rotation includes left rotation, right rotation, printing stages of rotation which receives array, position(optional/positive/negative) as an input and returns the output array.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishcdbry/npm-array-rotation.git"
+  },
+  "keywords": [
+    "array",
+    "rotate",
+    "left rotate",
+    "right rotate",
+    "array rotate",
+    "duplicate",
+    "rotation",
+    "array rotation"
+  ],
+  "author": "KrishCdbry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krishcdbry/npm-array-rotation/issues"
+  },
+  "maintainers": [
+    {
+      "name": "krishcdbry",
+      "email": "krishcdbry@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/krishcdbry/npm-array-rotation#readme"
+}
