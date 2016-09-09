@@ -20,7 +20,8 @@ and pushes them to the end of array. If position is given negative it will do th
 ```javascript
  var inputArray = [1,2,3,4,5,6,7,8,9];
  var position = 2;
- arrayRotation.rotateLeft(inputArray, position)  // 2 rotations to left [ 3, 4, 5, 6, 7, 8, 9, 1, 2 ]
+ arrayRotation.rotateLeft(inputArray, position)  
+ // 2 rotations to left [ 3, 4, 5, 6, 7, 8, 9, 1, 2 ]
 ```
 
 ## rotateRight(array, num)
@@ -29,8 +30,9 @@ and pushes them to the end of array. If position is given negative it will do th
 (i.e right rotation)  
 ```javascript
   var inputArray = [1,2,3,4,5,6,7,8,9];
-   var position = 2;
-  arrayRotation.rotateRight(inputArray, position)  //  [ 8, 9, 1, 2, 3, 4, 5, 6, 7 ]
+  var position = 2;
+  arrayRotation.rotateRight(inputArray, position)  
+  //  [ 8, 9, 1, 2, 3, 4, 5, 6, 7 ]
 ```
 
 ## rotate(array, num)
@@ -38,9 +40,12 @@ Rotates the array according to the (position) towards the right/left.
 If position is positive it will do left rotation, If not it will do right rotation
 ```javascript
  var inputArray = [1,2,3,4,5,6,7,8,9];
-  var position = 2;
- arrayRotation.rotate(inputArray, -position)  //  [ 8, 9, 1, 2, 3, 4, 5, 6, 7 ]  Right
- arrayRotation.rotate(inputArray, position)  //   [ 3, 4, 5, 6, 7, 8, 9, 1, 2 ]  Left
+ var position = 2;
+ arrayRotation.rotate(inputArray, -position)  
+ //  [ 8, 9, 1, 2, 3, 4, 5, 6, 7 ]  Right
+ 
+ arrayRotation.rotate(inputArray, position) 
+ //   [ 3, 4, 5, 6, 7, 8, 9, 1, 2 ]  Left
 ```
 
 ## rotateLeftPrint(array, num)
