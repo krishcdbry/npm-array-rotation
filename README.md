@@ -1,4 +1,4 @@
-# npm-array-rotation
+# npm-array-rotation [![NPM version](https://img.shields.io/npm/v/npm-array-rotation.svg)](https://www.npmjs.com/package/npm-array-rotation)
 Array rotation includes left rotation, right rotation, printing stages of rotation which receives array, position(optional/positive/negative) as an input and returns the output array.
 
 ## Installation
