@@ -75,3 +75,12 @@ and pushes them to the end of array. If position is given negative it will do th
  
 ```
 
+## Demo
+Demo @[url-scraper](https://tonicdev.com/npm/npm-array-rotation)
+| https://tonicdev.com/npm/npm-array-rotation
+
+## Author
+Krishcdbry [krishcdbry@gmail.com]
+
+## Licence
+MIT @[krishcdbry](krishcdbry.com)
